@@ -1,0 +1,117 @@
+h2{
+font-size: 50px
+}
+img{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+span{
+    color: rgb(240, 237, 236);
+
+}
+#fit{
+    border-radius: 50%;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+.main-div{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-div{
+     /* border: rgb(255, 71, 71) solid 4px;  */
+    flex-basis: 50%;
+    background-image: url("back.jpg");
+    height: 100vh;
+    background-size: 4500px;
+    background-position: center;
+}
+
+.second-div{
+     /* border: rgb(9, 16, 22) solid 4px;  */
+    flex-basis: 50%;
+    padding: 20px;
+}
+#mid{
+position: absolute;
+top: 40%;
+left: 15%;
+}
+.red{
+    color: white;
+    background-color: #086bee;
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 30px;
+
+}
+.blue{
+    color: light blue;
+    background-color: white;
+    border: #086bee solid 4px;
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 30px;
+
+}
+.level
+{
+display: flex;
+list-style-type: none;
+/* justify-content: center; */
+background-color: rgba(241, 246, 248, 0.801);
+background-size: 30px;
+color: rgb(21, 22, 22);
+padding: 20px;
+}
+.level li {
+    padding-right: 20px;
+}
+.level a{
+    color: black;
+    text-decoration: none;
+}
+.level a:hover{
+    color: rgb(253, 237, 6);
+    font-size: large;
+}
+.font{
+    display: flex;
+    background-color: rgb(15, 17, 17);
+    color: rgb(14, 13, 13);
+    list-style: none;
+}
+.font li {
+padding: 40px;
+}
+.mail{
+    border: #121418 solid;
+box-sizing: 100px;
+}
+.pass{
+    border: #121418 solid;
+     
+}
+.log{
+    color: light blue;
+    background-color: white;
+    border: #086bee solid 4px;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 30px;
+   
+}
+#textboxid{
+    height: 80px;
+    width: 150px;
+    font-size: 20px;
+}
